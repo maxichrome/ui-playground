@@ -1,0 +1,26 @@
+{
+	"name": "@hadenpf/ui-playground",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:hadenpf/ui-playground.git",
+	"author": "hadenpf",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"@babel/core": "^7.14.5",
+		"@storybook/addon-actions": "^6.2.9",
+		"@storybook/addon-essentials": "^6.2.9",
+		"@storybook/addon-links": "^6.2.9",
+		"@storybook/react": "^6.2.9",
+		"babel-loader": "^8.2.2",
+		"prettier": "^2.3.1"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"scripts": {
+		"start": "start-storybook -p 6006",
+		"build": "build-storybook"
+	}
+}
